@@ -1,4 +1,4 @@
-![alt text][juliett-logo] juliett
+![alt text][juliett-logo] Juliet
 =======
 
 Juliett is the best girl in the Universe!
