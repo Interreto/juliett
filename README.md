@@ -9,4 +9,4 @@ Juliett.co is wordpress blog about travel and photos.
 
 
 ======
-&copy; http://juliett.co/
+&copy; http://juliett.co/   https://instagram.com/juliett.co/
