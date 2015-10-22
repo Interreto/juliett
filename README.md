@@ -1,6 +1,6 @@
 ![alt text][juliett-logo] Juliet
 =======
-Juliett the Best Girl in The Universe! She visited - Montenegro, Italy, Cyprus, Egypt, Spain, Turkey, France, Croatia and Mexico. She took a photos and now you can make a virtual travel with Juliet in the her blog. Juliett.co is a wordpress blog about travel and photos. 
+Juliett.co is a wordpress blog about travel and photos. She visited - Montenegro, Italy, Cyprus, Egypt, Spain, Turkey, France, Croatia and Mexico. She took a photos and now you can make a virtual travel with Juliet in the her blog. Juliet the Best Girl in The Universe! 
 
 ![juliett-photo]
 
