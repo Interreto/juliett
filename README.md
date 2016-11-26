@@ -8,7 +8,7 @@ She took a photos and now you can make a virtual travel with Juliet in the her b
 ![juliett-photo]
 
 [juliett-logo]: https://raw.github.com/Interreto/juliett/master/logo.jpg "Juliett is the best girl in the Universe"
-[juliett-photo]: https://raw.github.com/Interreto/juliett/master/site.jpg "Juliett is the best girl in the Universe"
+[juliett-photo]: https://raw.github.com/Interreto/juliett/master/site.jpg "Wordpress blog about travel"
 
 ======
- &copy; [juliett.co](http://juliett.co/) | [instagram](https://instagram.com/juliett.co/)   
+ &copy; [The Best Girl in The Universe!](http://juliett.co/) | [Instagram](https://instagram.com/juliett.co/)   
