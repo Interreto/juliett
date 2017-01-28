@@ -1,8 +1,8 @@
 ![alt text][juliett-logo] Juliet
 =======
 
-Juliett.co is a wordpress blog about travel and photos. She visited - [Montenegro](http://juliett.co/montenegro/), [Italy](http://juliett.co/italy/), [Greece](http://juliett.co/greece/), [Cyprus](http://juliett.co/cyprus/), [Egypt](http://juliett.co/egypt/), [Spain](http://juliett.co/spain/), [Turkey](http://juliett.co/turkey/), 
-[France](http://juliett.co/france/), [Croatia](http://juliett.co/croatia/), [Srilanka](http://juliett.co/sri-lanka/), [Georgia](http://juliett.co/georgia/), [United Arab Emirates](http://juliett.co/uae/) and [Mexico](http://juliett.co/mexico/). 
+Juliett.co is a wordpress blog about travel and photos. She visited - [Montenegro](http://juliet.life/montenegro/), [Italy](http://juliet.life/italy/), [Greece](http://juliet.life/greece/), [Cyprus](http://juliet.life/cyprus/), [Egypt](http://juliet.life/egypt/), [Spain](http://juliet.life/spain/), [Turkey](http://juliet.life/turkey/), 
+[France](http://juliet.life/france/), [Croatia](http://juliet.life/croatia/), [Srilanka](http://juliet.life/sri-lanka/), [Georgia](http://juliet.life/georgia/), [United Arab Emirates](http://juliet.life/uae/) and [Mexico](http://juliet.life/mexico/). 
 She took a photos and now you can make a virtual travel with Juliet in the her blog. Juliet the Best Girl in The Universe! 
 
 ![juliett-photo]
@@ -11,4 +11,4 @@ She took a photos and now you can make a virtual travel with Juliet in the her b
 [juliett-photo]: https://raw.github.com/Interreto/juliett/master/site.jpg "Wordpress blog about travel"
 
 ======
- &copy; [The Best Girl in The Universe!](http://juliett.co/) | [Instagram](https://instagram.com/juliett.co/)   
+ &copy; [The Best Girl in The Universe!](https://juliet.life/) | [Instagram](https://instagram.com/juliett.co/)   
