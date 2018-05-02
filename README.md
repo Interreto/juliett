@@ -12,5 +12,5 @@ She took a photos and now you can make a virtual travel with Juliet in the her b
 
 &nbsp;
 ============
-&copy; [The Best Girl in The Universe!](https://juliet.life/) | [Instagram](https://instagram.com/_www.juliet.life_/)  
+&copy; [The Best Girl in The Universe!](http://www.juliet.life/) | [Instagram](https://instagram.com/_www.juliet.life_/)  
 
