@@ -24,9 +24,8 @@ To date, Juliet visited -
 ![juliett-photo]
 
 [juliett-logo]: https://raw.github.com/metlinskyi/www.juliet.life/master/logo.jpg "Juliett is the best girl in the Universe"
-[juliett-photo]: https://raw.github.com/metlinskyi/www.juliet.life/master/site.jpg "Wordpress blog about travel"
+[juliett-photo]: https://raw.github.com/metlinskyi/www.juliet.life/master/site.jpg "The blog about travel and photos"
 
 &nbsp;
 ============
-&copy; [The Best Girl in The Universe!](http://www.juliet.life/) | [Instagram](https://instagram.com/_www.juliet.life_/)  
-
+&copy; [Blog of The Best Girl in The Universe!](http://www.juliet.life/) | [Instagram of The Best Girl in The Universe!](https://instagram.com/_www.juliet.life_/)
