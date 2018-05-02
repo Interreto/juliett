@@ -1,7 +1,11 @@
 ![alt text][juliett-logo] Juliet.life
 =======
 
-Juliet.life is a blog about travel and photos base on Wordpress CMS. While traveling The Best Girl in The Universe shooting all the most interested places in the World and now you can make a virtual travel with her in the blog. Juliet visited -
+Juliet.life is a blog about travel and photos base on Wordpress CMS. While traveling The Best Girl in The Universe shooting all the most interested places in the World and now you can make a virtual travel with her in the blog.
+
+To date, Juliet visited -
+[Argentina](http://juliet.life/argentina/),
+[Chile](http://juliet.life/chile/),
 [Montenegro](http://juliet.life/montenegro/),
 [Italy](http://juliet.life/italy/), 
 [Greece](http://juliet.life/greece/), 
@@ -13,8 +17,9 @@ Juliet.life is a blog about travel and photos base on Wordpress CMS. While trave
 [Croatia](http://juliet.life/croatia/), 
 [Srilanka](http://juliet.life/sri-lanka/), 
 [Georgia](http://juliet.life/georgia/), 
+[Mexico](http://juliet.life/mexico/), 
 [United Arab Emirates](http://juliet.life/uae/), and 
-[Mexico](http://juliet.life/mexico/). 
+[Ukraine](http://juliet.life/ukraine/).
 
 ![juliett-photo]
 
