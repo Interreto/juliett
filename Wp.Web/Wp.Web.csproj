@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Authors>Roman Metlinskyi</Authors>
+    <Product>Wp.Web</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wp\Wp.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Authors>Roman Metlinskyi</Authors>
+    <PackageTags>wordpress</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wp\Wp.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MySql\" />
+  </ItemGroup>
+
+</Project>

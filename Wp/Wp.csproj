@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Authors>Roman Metlinskyi</Authors>
+    <PackageTags>wordpress</PackageTags>
+    <RepositoryUrl>https://github.com/metlinskyi/www.juliet.life</RepositoryUrl>
+    <PackageIconUrl>https://github.com/metlinskyi/www.juliet.life/blob/master/favicon.ico</PackageIconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Web\" />
+  </ItemGroup>
+
+</Project>
