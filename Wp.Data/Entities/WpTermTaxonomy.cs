@@ -6,6 +6,9 @@ using Wp.Data.Attributes;
 
 namespace Wp.Data.Entities
 {
+    /// <summary>
+    /// A term_taxonomy entity of Wordpress 
+    /// </summary>
     [WpTable("term_taxonomy")]
     public partial class WpTermTaxonomy : WpEntity<ulong>
     {

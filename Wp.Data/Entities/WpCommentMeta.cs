@@ -6,6 +6,9 @@ using Wp.Data.Attributes;
 
 namespace Wp.Data.Entities
 {
+    /// <summary>
+    /// A commentmeta entity of Wordpress 
+    /// </summary>
     [WpTable("commentmeta")]
     public partial class WpCommentMeta : WpEntity<ulong>, IWpEnitityMeta
     {

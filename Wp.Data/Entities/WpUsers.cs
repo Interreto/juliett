@@ -6,6 +6,9 @@ using Wp.Data.Attributes;
 
 namespace Wp.Data.Entities
 {
+    /// <summary>
+    /// A user entity of Wordpress 
+    /// </summary>
     [WpTable("users")]
     public partial class WpUsers : WpEntity<ulong>
     {

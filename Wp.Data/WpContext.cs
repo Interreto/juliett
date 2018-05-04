@@ -3,6 +3,9 @@ using Wp.Data.Entities;
 
 namespace Wp.Data
 {
+    /// <summary>
+    /// A database context of Wordpress 
+    /// </summary>
     public abstract partial class WpContext : DbContext
     {
         public virtual DbSet<WpCommentMeta> CommentMeta { get; set; }

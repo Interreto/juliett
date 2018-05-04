@@ -6,6 +6,9 @@ using Wp.Data.Attributes;
 
 namespace Wp.Data.Entities
 {
+    /// <summary>
+    /// A termmeta entity of Wordpress 
+    /// </summary>
     [WpTable("termmeta")]
     public partial class WpTermMeta : WpEntity<ulong>, IWpEnitityMeta
     {

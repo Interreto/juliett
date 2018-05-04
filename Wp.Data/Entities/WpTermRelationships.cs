@@ -6,6 +6,9 @@ using Wp.Data.Attributes;
 
 namespace Wp.Data.Entities
 {
+    /// <summary>
+    /// A term to object relationship entity of Wordpress 
+    /// </summary>
     [WpTable("term_relationships")]
     public partial class WpTermRelationships : WpEntity
     {

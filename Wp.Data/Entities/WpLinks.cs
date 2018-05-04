@@ -6,6 +6,9 @@ using Wp.Data.Attributes;
 
 namespace Wp.Data.Entities
 {
+    /// <summary>
+    /// A link entity of Wordpress 
+    /// </summary>
     [WpTable("links")]
     public partial class WpLinks : WpEntity<ulong>
     {

@@ -1,5 +1,8 @@
 ﻿namespace Wp.Data
 {
+    /// <summary>
+    /// A database entity meta interface
+    /// </summary>
     public interface IWpEnitityMeta
     {
         /// <summary>

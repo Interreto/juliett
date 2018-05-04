@@ -6,6 +6,9 @@ using Wp.Data.Attributes;
 
 namespace Wp.Data.Entities
 {
+    /// <summary>
+    /// A postmeta entity of Wordpress 
+    /// </summary>
     [WpTable("postmeta")]
     public partial class WpPostMeta : WpEntity<ulong>, IWpEnitityMeta
     {
