@@ -20,7 +20,7 @@ namespace Wp.Data.MySql
                 entity.HasIndex(e => e.CommentId)
                     .HasName("comment_id");
 
-                entity.HasIndex(e => e.MetaKey)
+                entity.HasIndex(e => e.Key)
                     .HasName("meta_key");
 
                 entity.Property(e => e.CommentId).HasDefaultValueSql("'0'");
@@ -109,7 +109,7 @@ namespace Wp.Data.MySql
 
             modelBuilder.Entity<WpPostMeta>(entity =>
             {
-                entity.HasIndex(e => e.MetaKey)
+                entity.HasIndex(e => e.Key)
                     .HasName("meta_key");
 
                 entity.HasIndex(e => e.PostId)
@@ -167,7 +167,7 @@ namespace Wp.Data.MySql
 
             modelBuilder.Entity<WpTermMeta>(entity =>
             {
-                entity.HasIndex(e => e.MetaKey)
+                entity.HasIndex(e => e.Key)
                     .HasName("meta_key");
 
                 entity.HasIndex(e => e.TermId)
@@ -225,7 +225,7 @@ namespace Wp.Data.MySql
 
             modelBuilder.Entity<WpUserMeta>(entity =>
             {
-                entity.HasIndex(e => e.MetaKey)
+                entity.HasIndex(e => e.Key)
                     .HasName("meta_key");
 
                 entity.HasIndex(e => e.UserId)

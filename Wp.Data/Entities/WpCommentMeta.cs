@@ -7,7 +7,7 @@ using Wp.Data.Attributes;
 namespace Wp.Data.Entities
 {
     [WpTable("commentmeta")]
-    public partial class WpCommentMeta : WpEntity<ulong>
+    public partial class WpCommentMeta : WpEntity<ulong>, IWpEnitityMeta
     {
         [Key]
         [Column("meta_id")]
@@ -18,9 +18,9 @@ namespace Wp.Data.Entities
 
         [Column("meta_key")]
         [StringLength(255)]
-        public string MetaKey { get; set; }
+        public string Key { get; set; }
 
         [Column("meta_value")]
-        public string MetaValue { get; set; }
+        public string Value { get; set; }
     }
 }
