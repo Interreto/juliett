@@ -1,10 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Wp.Data
+﻿namespace Wp.Data
 {
-    public abstract class WpRepository<TEntity> where TEntity : WpEntity
+    /// <summary>
+    /// A repository of Wordpress
+    /// </summary>
+    public abstract class WpRepository
+    {
+    }
+
+    /// <summary>
+    /// A entity repository of Wordpress
+    /// </summary>
+    public abstract class WpRepository<TEntity> : WpRepository 
+        where TEntity : WpEntity
     {
     }
 }

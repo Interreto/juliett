@@ -4,6 +4,9 @@ using Xunit;
 
 namespace Wp.Data.UnitTests
 {
+    /// <summary>
+    /// The integration test with a preset WordPress data
+    /// </summary>
     public class WpOptionsTests
     {
         [Fact]
