@@ -6,7 +6,7 @@ using Wp.Data.Entities;
 
 namespace Wp.Data
 {
-    public class TheOptions : WpRepository, IReadOnlyDictionary<string, string>
+    public class TheOptions : WpRepository<WpOptions>, IReadOnlyDictionary<string, string>
     {
         private readonly WpContext _context;
 

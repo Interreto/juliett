@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Wp.Data
 {
-    public class TheMeta<TMeta> : WpRepository
+    public class TheMeta<TMeta> : WpRepository<TMeta>
         where TMeta : WpMeta<ulong>
     {
         private readonly WpContext _context;
