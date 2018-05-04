@@ -8,7 +8,7 @@ namespace Wp.Data.Attributes
     public class WpTableAttribute : TableAttribute
     {
         public WpTableAttribute(string name) 
-            : base("wp_" + name)
+            : base(WpConfig.Db.TablePrefix + name)
         {
         }
     }
