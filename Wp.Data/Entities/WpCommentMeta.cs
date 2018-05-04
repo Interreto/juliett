@@ -10,20 +10,20 @@ namespace Wp.Data.Entities
     /// A commentmeta entity of Wordpress 
     /// </summary>
     [WpTable("commentmeta")]
-    public partial class WpCommentMeta : WpEntity<ulong>, IWpEnitityMeta
+    public partial class WpCommentMeta : WpMeta<ulong>
     {
         [Key]
         [Column("meta_id")]
         public override ulong Id { get; set; }
 
         [Column("comment_id")]
-        public ulong CommentId { get; set; }
+        public override ulong EntityId { get; set; }
 
         [Column("meta_key")]
         [StringLength(255)]
-        public string Key { get; set; }
+        public override string Key { get; set; }
 
         [Column("meta_value")]
-        public string Value { get; set; }
+        public override string Value { get; set; }
     }
 }

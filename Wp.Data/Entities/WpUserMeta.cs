@@ -10,20 +10,20 @@ namespace Wp.Data.Entities
     /// A usermeta entity of Wordpress 
     /// </summary>
     [WpTable("usermeta")]
-    public partial class WpUserMeta : WpEntity<ulong>, IWpEnitityMeta
+    public partial class WpUserMeta : WpMeta<ulong>
     {
         [Key]
         [Column("umeta_id")]
         public override ulong Id { get; set; }
 
         [Column("user_id")]
-        public ulong UserId { get; set; }
+        public override ulong EntityId { get; set; }
 
         [Column("meta_key")]
         [StringLength(255)]
-        public string Key { get; set; }
+        public override string Key { get; set; }
 
         [Column("meta_value")]
-        public string Value { get; set; }
+        public override string Value { get; set; }
     }
 }

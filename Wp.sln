@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wp.Web", "Wp.Web\Wp.Web.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wp.Data.MySql", "Wp.Data.MySql\Wp.Data.MySql.csproj", "{E6AF6606-07F9-4244-8B18-7AF0C0694BC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wp.Data.UnitTests", "Wp.Data.UnitTests\Wp.Data.UnitTests.csproj", "{E878AEE5-C6D3-4BA0-8E3E-CCB5CBA86FE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wp.Data.UnitTests", "Wp.Data.UnitTests\Wp.Data.UnitTests.csproj", "{E878AEE5-C6D3-4BA0-8E3E-CCB5CBA86FE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

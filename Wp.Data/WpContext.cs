@@ -12,13 +12,13 @@ namespace Wp.Data
         {
             modelBuilder.Entity<WpCommentMeta>(entity =>
             {
-                entity.HasIndex(e => e.CommentId)
+                entity.HasIndex(e => e.EntityId)
                     .HasName("comment_id");
 
                 entity.HasIndex(e => e.Key)
                     .HasName("meta_key");
 
-                entity.Property(e => e.CommentId).HasDefaultValueSql("'0'");
+                entity.Property(e => e.EntityId).HasDefaultValueSql("'0'");
             });
 
             modelBuilder.Entity<WpComments>(entity =>
@@ -107,10 +107,10 @@ namespace Wp.Data
                 entity.HasIndex(e => e.Key)
                     .HasName("meta_key");
 
-                entity.HasIndex(e => e.PostId)
+                entity.HasIndex(e => e.EntityId)
                     .HasName("post_id");
 
-                entity.Property(e => e.PostId).HasDefaultValueSql("'0'");
+                entity.Property(e => e.EntityId).HasDefaultValueSql("'0'");
             });
 
             modelBuilder.Entity<WpPosts>(entity =>
@@ -165,10 +165,10 @@ namespace Wp.Data
                 entity.HasIndex(e => e.Key)
                     .HasName("meta_key");
 
-                entity.HasIndex(e => e.TermId)
+                entity.HasIndex(e => e.EntityId)
                     .HasName("term_id");
 
-                entity.Property(e => e.TermId).HasDefaultValueSql("'0'");
+                entity.Property(e => e.EntityId).HasDefaultValueSql("'0'");
             });
 
             modelBuilder.Entity<WpTermRelationships>(entity =>
@@ -223,10 +223,10 @@ namespace Wp.Data
                 entity.HasIndex(e => e.Key)
                     .HasName("meta_key");
 
-                entity.HasIndex(e => e.UserId)
+                entity.HasIndex(e => e.EntityId)
                     .HasName("user_id");
 
-                entity.Property(e => e.UserId).HasDefaultValueSql("'0'");
+                entity.Property(e => e.EntityId).HasDefaultValueSql("'0'");
             });
 
             modelBuilder.Entity<WpUsers>(entity =>

@@ -7,10 +7,10 @@ namespace Wp.Data.UnitTests
     /// <summary>
     /// The integration test with a preset WordPress data
     /// </summary>
-    public class WpOptionsTests
+    public class TheOptionsTests
     {
         [Fact]
-        public void MySqlContext_Comments()
+        public void TheOptions()
         {
             using (var context = WpContextHelper.CreateDbContext())
             {

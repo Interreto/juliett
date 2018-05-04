@@ -10,20 +10,20 @@ namespace Wp.Data.Entities
     /// A termmeta entity of Wordpress 
     /// </summary>
     [WpTable("termmeta")]
-    public partial class WpTermMeta : WpEntity<ulong>, IWpEnitityMeta
+    public partial class WpTermMeta : WpMeta<ulong>
     {
         [Key]
         [Column("meta_id")]
         public override ulong Id { get; set; }
 
         [Column("term_id")]
-        public ulong TermId { get; set; }
+        public override ulong EntityId { get; set; }
 
         [Column("meta_key")]
         [StringLength(255)]
-        public string Key { get; set; }
+        public override string Key { get; set; }
 
         [Column("meta_value")]
-        public string Value { get; set; }
+        public override string Value { get; set; }
     }
 }
