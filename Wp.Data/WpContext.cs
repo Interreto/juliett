@@ -93,13 +93,13 @@ namespace Wp.Data
 
             modelBuilder.Entity<WpOptions>(entity =>
             {
-                entity.HasIndex(e => e.OptionName)
+                entity.HasIndex(e => e.Name)
                     .HasName("option_name")
                     .IsUnique();
 
                 entity.Property(e => e.Autoload).HasDefaultValueSql("'yes'");
 
-                entity.Property(e => e.OptionName).HasDefaultValueSql("''");
+                entity.Property(e => e.Name).HasDefaultValueSql("''");
             });
 
             modelBuilder.Entity<WpPostMeta>(entity =>

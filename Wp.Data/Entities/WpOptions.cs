@@ -19,11 +19,11 @@ namespace Wp.Data.Entities
         [Required]
         [Column("option_name")]
         [StringLength(191)]
-        public string OptionName { get; set; }
+        public string Name { get; set; }
 
         [Required]
         [Column("option_value")]
-        public string OptionValue { get; set; }
+        public string Value { get; set; }
 
         [Required]
         [Column("autoload")]
