@@ -5,9 +5,11 @@ VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wp", "Wp\Wp.csproj", "{ED95AC52-84E2-41B7-A715-748057589DC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wp.Data", "Wp.Data\Wp.Data.csproj", "{17EC43F5-3ACF-4D8C-BBC2-0E6C881BA8FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wp.Data", "Wp.Data\Wp.Data.csproj", "{17EC43F5-3ACF-4D8C-BBC2-0E6C881BA8FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wp.Web", "Wp.Web\Wp.Web.csproj", "{30F80D03-06A1-411C-9D05-1ABDD0D44529}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wp.Web", "Wp.Web\Wp.Web.csproj", "{30F80D03-06A1-411C-9D05-1ABDD0D44529}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wp.Data.MySql", "Wp.Data.MySql\Wp.Data.MySql.csproj", "{E6AF6606-07F9-4244-8B18-7AF0C0694BC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{30F80D03-06A1-411C-9D05-1ABDD0D44529}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30F80D03-06A1-411C-9D05-1ABDD0D44529}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30F80D03-06A1-411C-9D05-1ABDD0D44529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6AF6606-07F9-4244-8B18-7AF0C0694BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6AF6606-07F9-4244-8B18-7AF0C0694BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6AF6606-07F9-4244-8B18-7AF0C0694BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6AF6606-07F9-4244-8B18-7AF0C0694BC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="MySql\" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.2" />
   </ItemGroup>
 
 </Project>
