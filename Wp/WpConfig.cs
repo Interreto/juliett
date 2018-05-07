@@ -6,6 +6,8 @@ namespace Wp
 {
     public static class WpConfig
     {
+        public const string SectionName = "WpConfig";
+
         public static class Db
         {
             public static string Name => "www";

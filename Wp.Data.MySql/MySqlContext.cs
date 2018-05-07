@@ -7,8 +7,14 @@ namespace Wp.Data.MySql
         private readonly string _connectionString;
 
         public MySqlContext(string connectionString)
+            : this()
         {
             _connectionString = connectionString;
+        }
+
+        public MySqlContext()
+        {
+
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

@@ -9,6 +9,7 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Wp.Data.MySql\Wp.Data.MySql.csproj" />
     <ProjectReference Include="..\Wp.Data\Wp.Data.csproj" />
     <ProjectReference Include="..\Wp.Web\Wp.Web.csproj" />
   </ItemGroup>

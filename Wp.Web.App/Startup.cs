@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Wp.Data;
+using Wp.Data.MySql;
 
 namespace Wp.Web.App
 {
@@ -24,7 +25,9 @@ namespace Wp.Web.App
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<WpContext>(options => options.UseInMemoryDatabase("wp"));
+            services.AddDbContext<MySqlContext>(options => options.UseMySql(Configuration.BuildConnectionString()));
+
+            services.AddScoped<WpContext, MySqlContext>(provider => provider.GetService<MySqlContext>());
 
             services.AddMvc();
         }
