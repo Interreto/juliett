@@ -25,11 +25,9 @@ namespace Wp.Web.App
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<MySqlContext>(options => options.UseMySql(Configuration.BuildConnectionString()));
-
-            services.AddScoped<WpContext, MySqlContext>(provider => provider.GetService<MySqlContext>());
-
-            services.AddMvc();
+            services
+                .AddScoped<WpContext, MySqlContext>(provider => new MySqlContext(Configuration.BuildConnectionString()))
+                .AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
