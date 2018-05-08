@@ -15,20 +15,21 @@ namespace Wp.Web.Mvc
                 throw new ArgumentNullException(nameof(builder));
 
             builder
-                .AddRazorPagesOptions(options =>
-                {
-                    options.RootDirectory = "/Themes/Default";
-                });
-
-            builder
                 .Services
                 .Configure<RazorViewEngineOptions>(options =>
                 {
                     options.ViewLocationExpanders.Add(new WpViewLocationExpander());
                 })
+                .AddSingleton<WpApp>()
                 .AddScoped<WpContext>(implementationFactory)
-                
                 ;
+
+            builder
+                .AddRazorPagesOptions(options =>
+                {
+                    options.RootDirectory = "/Themes/Default";
+                });
+
 
             return builder;
         }
