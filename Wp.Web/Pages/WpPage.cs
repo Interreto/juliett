@@ -9,7 +9,7 @@ namespace Wp.Web.Pages
 {
     public abstract class WpPage : PageModel
     {
-        WpContext _context;
+        readonly WpContext _context;
 
         public WpPage(WpContext context)
         {
