@@ -1,19 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 using Wp.Data;
 
 namespace Wp.Web.Pages
 {
     public abstract class WpPage : PageModel
     {
-        readonly WpContext _context;
+        protected WpContext Db { get; }
 
         public WpPage(WpContext context)
         {
-            _context = context;
+            Db = context;
         }
     }
 }
