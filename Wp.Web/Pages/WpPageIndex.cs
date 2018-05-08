@@ -10,10 +10,5 @@ namespace Wp.Web.Pages
         public WpPageIndex(WpContext context) : base(context)
         {
         }
-
-        public bool HasPost()
-        {
-            return false;
-        }
     }
 }

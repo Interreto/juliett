@@ -1,3 +1,9 @@
 ﻿@page
 @model IndexModel
 
+@foreach(var post in Model.Posts) {
+
+    <h1>@post.PostTitle</h1>
+    <p>@post.PostExcerpt</p>
+
+}
