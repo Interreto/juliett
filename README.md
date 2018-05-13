@@ -23,7 +23,7 @@ To date, Juliet visited -
 
 ![juliett-photo]
 
-[juliett-logo]: https://raw.github.com/metlinskyi/www.juliet.life/master/favicon.png "Juliett is the best girl in the Universe"
+[juliett-logo]: https://raw.github.com/metlinskyi/www.juliet.life/master/favicon.ico "Juliett is the best girl in the Universe"
 [juliett-photo]: https://raw.github.com/metlinskyi/www.juliet.life/master/screenshot.png "The blog about travel and photos"
 
 &nbsp;
