@@ -23,10 +23,9 @@ To date, Juliet visited -
 
 ![alt-text][screenshot-png]
 
-&nbsp;
-============
 
 ### Wp (namespace)
+=======
 Wp is a cross-platform WordPress port who base on .Net Core 2 and Entity Framework 6 with MySql support. 
 
 &nbsp;
