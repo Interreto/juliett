@@ -26,7 +26,7 @@ To date, Juliet visited -
 
 ![favicon-ico] wp (namespace)
 =======
-Wp is a cross-platform WordPress port who base on .Net Core 2 and Entity Framework 6 with MySql support. 
+Wp is a cross-platform WordPress port who based on .Net Core 2 and Entity Framework 6 with MySql support. Html templates based on MVC Razor pages. 
 
 &nbsp;
 ============
