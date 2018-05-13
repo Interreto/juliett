@@ -1,7 +1,7 @@
-![alt text][juliett-logo] www.juliet.life
+![favicon-ico] www.juliet.life
 =======
 
-Juliet.life is a blog about travel and photos base on Wordpress CMS. While traveling The Best Girl in The Universe shooting all the most interested places in the World and now you can make a virtual travel with her in the blog.
+Juliet.life is a blog about travel and photos base on WordPress CMS. While traveling The Best Girl in The Universe shooting all the most interested places in the World and now you can make a virtual travel with her in the blog.
 
 To date, Juliet visited -
 [Argentina](http://juliet.life/argentina/),
@@ -21,11 +21,12 @@ To date, Juliet visited -
 [United Arab Emirates](http://juliet.life/uae/), and 
 [Ukraine](http://juliet.life/ukraine/).
 
-![juliett-photo]
-
-[juliett-logo]: https://raw.github.com/metlinskyi/www.juliet.life/master/favicon.ico "Juliett is the best girl in the Universe"
-[juliett-photo]: https://raw.github.com/metlinskyi/www.juliet.life/master/screenshot.png "The blog about travel and photos"
+![alt-text][screenshot-png]
 
 &nbsp;
 ============
 &copy; [Blog of The Best Girl in The Universe!](http://www.juliet.life/) | [Instagram of The Best Girl in The Universe!](https://instagram.com/_www.juliet.life_/)
+
+
+[favicon-ico]: https://raw.github.com/metlinskyi/www.juliet.life/master/favicon.ico
+[screenshot-png]: https://raw.github.com/metlinskyi/www.juliet.life/master/screenshot.png "The WordPress blog about travel and photos"
