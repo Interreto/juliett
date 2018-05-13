@@ -1,4 +1,4 @@
-![alt text][juliett-logo] Juliet.life
+![alt text][juliett-logo] www.juliet.life
 =======
 
 Juliet.life is a blog about travel and photos base on Wordpress CMS. While traveling The Best Girl in The Universe shooting all the most interested places in the World and now you can make a virtual travel with her in the blog.
