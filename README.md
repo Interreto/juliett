@@ -25,6 +25,12 @@ To date, Juliet visited -
 
 &nbsp;
 ============
+
+###### Wp (namespace)
+Wp is a cross-platform WordPress port who base on .Net Core 2 and Entity Framework 6 with MySql support. 
+
+&nbsp;
+============
 &copy; [Blog of The Best Girl in The Universe!](http://www.juliet.life/) | [Instagram of The Best Girl in The Universe!](https://instagram.com/_www.juliet.life_/)
 
 
